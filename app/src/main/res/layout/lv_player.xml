@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:id="@+id/iv"
+    android:src="@mipmap/ic_launcher"
+    android:layout_below="@+id/btnUpload"
+    android:layout_centerHorizontal="true" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save Image"
+    android:id="@+id/btnUpload"
+    android:onClick="sand"
+    android:layout_marginTop="0dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Show Image"
+    android:id="@+id/button"
+    android:onClick="show"
+    android:layout_below="@+id/iv"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="67dp" />
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:id="@+id/iv1"
+    android:src="@mipmap/ic_launcher"
+    android:layout_alignParentBottom="true"
+    android:layout_alignStart="@+id/iv"
+    android:layout_marginTop="300dp" />
+
+</RelativeLayout>
