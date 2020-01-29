@@ -33,7 +33,7 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
     //stared work 29/1/2020 by ranjitha
-    private String URLstring = "https://dog.ceo/api/breeds/image/random/rakeshba";
+    private String URLstring = "https://dog.ceo/api/breeds/image/random/rakeshba/29.1.2020";
     private static ProgressDialog mProgressDialog;
     private ListView listView;
     ArrayList<DataModel> dataModelArrayList;
