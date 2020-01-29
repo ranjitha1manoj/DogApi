@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private SQLiteDatabase db=null;
     private static final String DB_NAME = "ImgDb.db";
     public static final int DB_VERSION = 3;
-
+//hello am ranjitha am going to start a new project
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private File getFile() {
-        File folder = new File("sdcard/attendence");
+        File folder = new File("sdcard");
         if (!folder.exists()) {
             folder.mkdir();
         }
