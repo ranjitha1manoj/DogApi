@@ -32,8 +32,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
-    //stared work 29/1/2020 by ranjitha
-    private String URLstring = "https://dog.ceo/api/breeds/image/random/rakeshba/29.1.2020";
+    //stared work 29/1/2020 by ranjitha hell
+    private String URLstring = "https://dog.ceo/api/breeds/image/random/";
     private static ProgressDialog mProgressDialog;
     private ListView listView;
     ArrayList<DataModel> dataModelArrayList;
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private SQLiteDatabase db=null;
     private static final String DB_NAME = "ImgDb.db";
     public static final int DB_VERSION = 3;
-
+//hello am ranjitha am going to start a new project
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private File getFile() {
-        File folder = new File("sdcard/attendence");
+        File folder = new File("sdcard");
         if (!folder.exists()) {
             folder.mkdir();
         }
